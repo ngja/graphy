@@ -11,7 +11,7 @@ const sidebarButtons = [
     href: "/dashboard/song",
   },
   {
-    name: "artist",
+    name: "Artist",
     href: "/dashboard/artist",
   }
 ]
