@@ -1,7 +1,10 @@
+import ArtistList from "@/app/dashboard/artist/artist-list";
+import {artists} from "@/app/dashboard/artist/temp-data";
+
 export default function ArtistPage() {
   return (
-    <div className="bg-amber-200">
-      Artist Page
+    <div>
+      <ArtistList artists={artists} />
     </div>
   )
 }
